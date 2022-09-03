@@ -5,6 +5,7 @@ import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.basudev.blog.entities.*;
 import com.basudev.blog.payloads.UserDto;
@@ -14,6 +15,7 @@ import com.basudev.blog.services.UserService;
 import com.basudev.blog.repositories.*;
 import com.basudev.blog.exceptions.*;
 
+@Service
 public class UserServiceimpl implements UserService {
 	
 	@Autowired

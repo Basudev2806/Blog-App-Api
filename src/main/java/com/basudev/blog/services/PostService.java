@@ -2,7 +2,6 @@ package com.basudev.blog.services;
 
 import java.util.List;
 
-import com.basudev.blog.entities.Post;
 import com.basudev.blog.payloads.PostDto;
 import com.basudev.blog.payloads.PostResponse;
 
