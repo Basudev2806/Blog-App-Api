@@ -27,7 +27,7 @@ public class UserDto {
 	private String email;
 	
 	@NotEmpty
-	@Size(min = 8, max = 10, message = "Password must be minimum of 8 character and maximum of 10 characters !!")
+	@Size(min = 8, max = 255, message = "Password must be minimum of 8 character.")
 	private String password;
 	
 	@NotNull

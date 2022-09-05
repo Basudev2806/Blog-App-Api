@@ -14,6 +14,7 @@ import com.basudev.blog.config.AppConstants;
 import com.basudev.blog.entities.Role;
 import com.basudev.blog.repositories.RoleRepo;
 
+
 @SpringBootApplication
 public class BlogAppApisApplication implements CommandLineRunner{
 
