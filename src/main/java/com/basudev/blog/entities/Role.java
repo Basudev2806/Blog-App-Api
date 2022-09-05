@@ -4,11 +4,13 @@ import javax.persistence.Entity;
 
 import javax.persistence.Id;
 
-import lombok.Data;
+//import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-
+@Getter
+@Setter
 @Entity
-@Data
 public class Role {
 	
 	
@@ -16,5 +18,7 @@ public class Role {
 	private int id;
 	
 	private String name;
+	
+	
 
 }
